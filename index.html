@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/jv.js"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <title>Pagina Principal</title>
+    </head>
+
+    <body background="img/princi.png" alt="fondo"> 
+    
+        
+            <form method="post" action="registro.html"  onsubmit="return validar()" > 
+                <h1 class="titul">
+                    <input  style="margin: 10px" class="btn" type="submit" value="Registrate">
+                    <input type="hidden" name="paginas" value="index"/> 
+                </h1>  
+            </form>
+
+            <form method="post" action="login.html" onsubmit="return validar()" > 
+                <h1 class="otro">
+                    <input style="margin: 10px" class="btn" type="submit" value="Inicia sesion">
+                    <input type="hidden" name="pagina" value="index"/> 
+                </h1>  
+            </form>
+           
+
+            <h1 class="titul" class="col-s-1">LICORERA ABRACADABRA</h1>
+            <h2 class="centrar">¡Quienes somos!</h2> 
+            <p class="centrar">Somo una pagina web donde podras organizar tus productos facil y sencillo.</p> 
+            <br>  
+            <img src="img/licores/Aguardiente antioqueño.jpg" alt="montaña" width = "350" height = "500" HSPACE="43" VSPACE="43"/> 
+            <img src="img/licores/Aguardiente cristal.jpg" alt="Playas"  width = "350" height = "500" HSPACE="43" VSPACE="43"/> 
+            <img src="img/licores/Ron viejo de caldas.jpg" alt="City"  width = "350" height = "500" HSPACE="43" VSPACE="43"/> 
+            
+      
+    </body>
+</html>
